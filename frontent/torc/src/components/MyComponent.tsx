@@ -15,7 +15,7 @@ const MyComponent: React.FC = () => {
   useEffect(() => {
     const fetchDataAsync = async () => {
       try {
-        const result = await fetchData('https://localhost:7121/WeatherForecast');
+        const result = await fetchData('https://localhost:7121/BookSearch?');
         setWeatherData(result);
       } catch (error) {
         console.error('Error fetching data:', error);

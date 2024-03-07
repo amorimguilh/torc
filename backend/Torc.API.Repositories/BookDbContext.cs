@@ -25,8 +25,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 100,
                 CopiesInUse = 80,
                 ISBN = "1234567891",
-                Category = Category.Fiction,
-                CoverType = CoverType.Hardcover
+                Category = "Fiction",
+                CoverType = "Hardcover"
             },
             new Book
             {
@@ -37,8 +37,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 75,
                 CopiesInUse = 65,
                 ISBN = "1234567892",
-                Category = Category.Fiction,
-                CoverType = CoverType.Paperback,
+                Category = "Fiction",
+                CoverType = "Paperback",
                 Publisher = ""
             },
             new Book
@@ -50,8 +50,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 50,
                 CopiesInUse = 45,
                 ISBN = "1234567893",
-                Category = Category.Fiction,
-                CoverType = CoverType.Hardcover,
+                Category = "Fiction",
+                CoverType = "Hardcover",
                 Publisher = ""
             },
             new Book
@@ -63,8 +63,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 50,
                 CopiesInUse = 22,
                 ISBN = "1234567894",
-                Category = Category.NonFiction,
-                CoverType = CoverType.Hardcover,
+                Category = "NonFiction",
+                CoverType = "Hardcover",
                 Publisher = ""
             },
             new Book
@@ -76,8 +76,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 50,
                 CopiesInUse = 35,
                 ISBN = "1234567895",
-                Category = Category.Biography,
-                CoverType = CoverType.Hardcover,
+                Category = "Biography",
+                CoverType = "Hardcover",
                 Publisher = ""
             },
             new Book
@@ -89,8 +89,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 75,
                 CopiesInUse = 11,
                 ISBN = "1234567896",
-                Category = Category.Mistery,
-                CoverType = CoverType.Hardcover,
+                Category = "Mistery",
+                CoverType = "Hardcover",
                 Publisher = ""
             },
             new Book
@@ -102,8 +102,8 @@ public class BookDbContext : DbContext
                 TotalCopies = 100,
                 CopiesInUse = 14,
                 ISBN = "1234567897",
-                Category = Category.SciFi,
-                CoverType = CoverType.Paperback,
+                Category = "SciFi",
+                CoverType = "Paperback",
                 Publisher = ""
             });
     }

@@ -18,9 +18,9 @@ public record Book
     public string LastName { get; set; } = null!;
     public int TotalCopies { get; set; }
     public int CopiesInUse { get; set; }
-    public CoverType CoverType { get; set; }
+    public string CoverType { get; set; } = null!;
     [MaxLength(50)]
     public string? ISBN { get; set; }
-    public Category Category { get; set; }
+    public string Category { get; set; } = null!;
     public string? Publisher { get; set; } = null!;
 }

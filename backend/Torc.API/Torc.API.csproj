@@ -19,9 +19,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Torc.API.Mappers\Torc.API.Mappers.csproj" />
     <ProjectReference Include="..\Torc.API.Repositories.Domain\Torc.API.Repositories.Domain.csproj" />
     <ProjectReference Include="..\Torc.API.Repositories\Torc.API.Repositories.csproj" />
     <ProjectReference Include="..\Torc.API.Services.Interfaces\Torc.API.Services.Interfaces.csproj" />
+    <ProjectReference Include="..\Torc.Api.Services\Torc.Api.Services.csproj" />
   </ItemGroup>
 
 </Project>

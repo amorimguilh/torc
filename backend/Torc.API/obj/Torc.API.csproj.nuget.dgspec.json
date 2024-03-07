@@ -4,6 +4,133 @@
     "C:\\Pessoal\\Study\\torc\\backend\\Torc.API\\Torc.API.csproj": {}
   },
   "projects": {
+    "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj",
+        "projectName": "Torc.API.Mappers.Interfaces",
+        "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj",
+        "packagesPath": "C:\\Users\\gamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj"
+              },
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Models\\Torc.API.Repositories.Models.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Models\\Torc.API.Repositories.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj",
+        "projectName": "Torc.API.Mappers",
+        "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj",
+        "packagesPath": "C:\\Users\\gamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -325,6 +452,80 @@
         }
       }
     },
+    "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj",
+        "projectName": "Torc.Api.Services",
+        "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj",
+        "packagesPath": "C:\\Users\\gamorim\\.nuget\\packages\\",
+        "outputPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\gamorim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers.Interfaces\\Torc.API.Mappers.Interfaces.csproj"
+              },
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Interfaces\\Torc.API.Repositories.Interfaces.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Interfaces\\Torc.API.Repositories.Interfaces.csproj"
+              },
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Pessoal\\Study\\torc\\backend\\Torc.API\\Torc.API.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -352,6 +553,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj"
+              },
               "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj": {
                 "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj"
               },
@@ -360,6 +564,9 @@
               },
               "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj": {
                 "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj"
+              },
+              "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj": {
+                "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj"
               }
             }
           }

@@ -11,9 +11,11 @@
           "Microsoft.EntityFrameworkCore.Design": "6.0.27",
           "Microsoft.VisualStudio.Azure.Containers.Tools.Targets": "1.17.2",
           "Swashbuckle.AspNetCore": "6.2.3",
+          "Torc.API.Mappers": "1.0.0",
           "Torc.API.Repositories": "1.0.0",
           "Torc.API.Repositories.Domain": "1.0.0",
-          "Torc.API.Services.Interfaces": "1.0.0"
+          "Torc.API.Services.Interfaces": "1.0.0",
+          "Torc.Api.Services": "1.0.0"
         },
         "runtime": {
           "Torc.API.dll": {}
@@ -499,6 +501,23 @@
           }
         }
       },
+      "Torc.API.Mappers/1.0.0": {
+        "dependencies": {
+          "Torc.API.Mappers.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Torc.API.Mappers.dll": {}
+        }
+      },
+      "Torc.API.Mappers.Interfaces/1.0.0": {
+        "dependencies": {
+          "Torc.API.Repositories.Domain": "1.0.0",
+          "Torc.API.Repositories.Models": "1.0.0"
+        },
+        "runtime": {
+          "Torc.API.Mappers.Interfaces.dll": {}
+        }
+      },
       "Torc.API.Repositories/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.27",
@@ -531,6 +550,17 @@
         },
         "runtime": {
           "Torc.API.Repositories.Models.dll": {}
+        }
+      },
+      "Torc.Api.Services/1.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Torc.API.Mappers.Interfaces": "1.0.0",
+          "Torc.API.Repositories.Interfaces": "1.0.0",
+          "Torc.API.Services.Interfaces": "1.0.0"
+        },
+        "runtime": {
+          "Torc.Api.Services.dll": {}
         }
       },
       "Torc.API.Services.Interfaces/1.0.0": {
@@ -899,6 +929,16 @@
       "path": "system.windows.extensions/4.7.0",
       "hashPath": "system.windows.extensions.4.7.0.nupkg.sha512"
     },
+    "Torc.API.Mappers/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Torc.API.Mappers.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
     "Torc.API.Repositories/1.0.0": {
       "type": "project",
       "serviceable": false,
@@ -915,6 +955,11 @@
       "sha512": ""
     },
     "Torc.API.Repositories.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Torc.Api.Services/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

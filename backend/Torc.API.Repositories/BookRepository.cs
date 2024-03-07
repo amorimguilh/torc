@@ -28,7 +28,7 @@ public class BookRepository : IBookRepository
                 query = BuildSearchByAuthorQuery(searchTerm);
                 break;
             case SearchType.ISBN:
-                query = _context.Books.Where(book => book.ISBN != null && book.ISBN.Equals(searchTerm, StringComparison.OrdinalIgnoreCase)).AsNoTracking();
+                query = _context.Books.Where(book => book.ISBN != null && book.ISBN.ToLower().Equals(searchTerm.ToLower())).AsNoTracking();
                 break;
         }
 
@@ -40,7 +40,7 @@ public class BookRepository : IBookRepository
     private IQueryable<Book> BuildSearchByAuthorQuery(string searchTerm)
     {
         return _context.Books
-            .Where(book => EF.Functions.Like(book.FirstName + " " + book.LastName, "%" + searchTerm + "%")).AsNoTracking();
+            .Where(book => EF.Functions.Like(book.FirstName.ToLower() + " " + book.LastName.ToLower(), "%" + searchTerm.ToLower() + "%")).AsNoTracking();
             
     }
 }

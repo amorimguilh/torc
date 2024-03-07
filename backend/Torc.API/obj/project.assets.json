@@ -878,6 +878,33 @@
           }
         }
       },
+      "Torc.API.Mappers/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Torc.API.Mappers.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Torc.API.Mappers.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Torc.API.Mappers.dll": {}
+        }
+      },
+      "Torc.API.Mappers.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Torc.API.Repositories.Domain": "1.0.0",
+          "Torc.API.Repositories.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Torc.API.Mappers.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Torc.API.Mappers.Interfaces.dll": {}
+        }
+      },
       "Torc.API.Repositories/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -930,6 +957,22 @@
         },
         "runtime": {
           "bin/placeholder/Torc.API.Repositories.Models.dll": {}
+        }
+      },
+      "Torc.Api.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.Extensions.Logging.Abstractions": "6.0.0",
+          "Torc.API.Mappers.Interfaces": "1.0.0",
+          "Torc.API.Repositories.Interfaces": "1.0.0",
+          "Torc.API.Services.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Torc.Api.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Torc.Api.Services.dll": {}
         }
       },
       "Torc.API.Services.Interfaces/1.0.0": {
@@ -2377,6 +2420,16 @@
         "version.txt"
       ]
     },
+    "Torc.API.Mappers/1.0.0": {
+      "type": "project",
+      "path": "../Torc.API.Mappers/Torc.API.Mappers.csproj",
+      "msbuildProject": "../Torc.API.Mappers/Torc.API.Mappers.csproj"
+    },
+    "Torc.API.Mappers.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../Torc.API.Mappers.Interfaces/Torc.API.Mappers.Interfaces.csproj",
+      "msbuildProject": "../Torc.API.Mappers.Interfaces/Torc.API.Mappers.Interfaces.csproj"
+    },
     "Torc.API.Repositories/1.0.0": {
       "type": "project",
       "path": "../Torc.API.Repositories/Torc.API.Repositories.csproj",
@@ -2397,6 +2450,11 @@
       "path": "../Torc.API.Repositories.Models/Torc.API.Repositories.Models.csproj",
       "msbuildProject": "../Torc.API.Repositories.Models/Torc.API.Repositories.Models.csproj"
     },
+    "Torc.Api.Services/1.0.0": {
+      "type": "project",
+      "path": "../Torc.Api.Services/Torc.Api.Services.csproj",
+      "msbuildProject": "../Torc.Api.Services/Torc.Api.Services.csproj"
+    },
     "Torc.API.Services.Interfaces/1.0.0": {
       "type": "project",
       "path": "../Torc.API.Services.Interfaces/Torc.API.Services.Interfaces.csproj",
@@ -2408,9 +2466,11 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.27",
       "Microsoft.VisualStudio.Azure.Containers.Tools.Targets >= 1.17.2",
       "Swashbuckle.AspNetCore >= 6.2.3",
+      "Torc.API.Mappers >= 1.0.0",
       "Torc.API.Repositories >= 1.0.0",
       "Torc.API.Repositories.Domain >= 1.0.0",
-      "Torc.API.Services.Interfaces >= 1.0.0"
+      "Torc.API.Services.Interfaces >= 1.0.0",
+      "Torc.Api.Services >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2444,6 +2504,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj": {
+              "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Mappers\\Torc.API.Mappers.csproj"
+            },
             "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj": {
               "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Domain\\Torc.API.Repositories.Domain.csproj"
             },
@@ -2452,6 +2515,9 @@
             },
             "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj": {
               "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Services.Interfaces\\Torc.API.Services.Interfaces.csproj"
+            },
+            "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj": {
+              "projectPath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.Api.Services\\Torc.Api.Services.csproj"
             }
           }
         }

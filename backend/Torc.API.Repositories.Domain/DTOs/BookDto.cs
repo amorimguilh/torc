@@ -9,10 +9,9 @@ public record BookDto
     public string Title { get; set; } = null!;
     public string? Publisher { get; set; }
     public string Author { get; set; } = null!;
-    public CoverType CoverType { get; set; }
+    public string CoverType { get; set; } = null!;
     public string? ISBN { get; set; }
     public string AvailableCopies { get; set; } = null!;
-    [JsonConverter(typeof(StringEnumConverter))]
-    public Category Category { get; set; }
+    public string Category { get; set; } = null!;
 
 }

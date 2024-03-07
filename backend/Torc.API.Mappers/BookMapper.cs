@@ -14,7 +14,7 @@ public class BookMapper : IBookMapper
             AvailableCopies = $"{book.CopiesInUse}/{book.TotalCopies}",
             Category = book.Category,
             ISBN = book?.ISBN,
-            Publisher = book.Publisher,
+            Publisher = book?.Publisher,
             Title = book.Title,
             CoverType = book.CoverType
         };

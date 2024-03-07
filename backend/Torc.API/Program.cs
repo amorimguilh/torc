@@ -1,5 +1,10 @@
 using Microsoft.EntityFrameworkCore;
+using Torc.API.Mappers;
+using Torc.API.Mappers.Interfaces;
 using Torc.API.Repositories;
+using Torc.API.Repositories.Interfaces;
+using Torc.API.Services;
+using Torc.API.Services.Interfaces;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -23,27 +28,9 @@ builder.Services.AddCors(
             });
     });
 
+InjectObjects(builder);
+ConfigureDatabase(builder);
 
-builder.Services.AddDbContext<BookDbContext>(options =>
-       options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
-using (var serviceProvider = builder.Services.BuildServiceProvider())
-{
-    using (var scope = serviceProvider.CreateScope())
-    {
-        var dbContext = scope.ServiceProvider.GetRequiredService<BookDbContext>();
-        try
-        {
-            // dbContext.Database.Migrate();
-        }
-        catch (Exception ex)
-        {
-            // Handle migration errors
-            Console.WriteLine($"Error applying migrations: {ex.Message}");
-            // You might want to log the exception and handle it according to your application's needs
-        }
-    }
-}
 
 var app = builder.Build();
 
@@ -63,3 +50,32 @@ app.MapControllers();
 app.UseCors("ReactCorsPolicy");
 
 app.Run();
+
+static void InjectObjects(WebApplicationBuilder builder)
+{
+    builder.Services.AddScoped<IBookSearchService, BookSearchService>();
+    builder.Services.AddScoped<IBookMapper, BookMapper>();
+    builder.Services.AddScoped<IBookRepository, BookRepository>();
+}
+
+static void ConfigureDatabase(WebApplicationBuilder builder)
+{
+    builder.Services.AddDbContext<BookDbContext>(options =>
+           options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+    using (var serviceProvider = builder.Services.BuildServiceProvider())
+    {
+        using (var scope = serviceProvider.CreateScope())
+        {
+            var dbContext = scope.ServiceProvider.GetRequiredService<BookDbContext>();
+            try
+            {
+                dbContext.Database.Migrate();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error applying migrations: {ex.Message}");
+            }
+        }
+    }
+}
