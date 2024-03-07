@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "xFWjmWyVBBItBrsWfyUTqzQEZoVH0Jthm7MVHJzdVqw=",
+  "Source": "Torc.API",
+  "BasePath": "_content/Torc.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

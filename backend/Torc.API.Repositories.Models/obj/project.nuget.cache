@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "xinNcJU8E6cYKpgClp1adHCfNbPqYfk3zyfC7ZkPxIHnxpkeEpIgn1WDSluj3OFAmK9Dnxf8rBhBktuLJvqIUw==",
+  "success": true,
+  "projectFilePath": "C:\\Pessoal\\Study\\torc\\backend\\Torc.API.Repositories.Models\\Torc.API.Repositories.Models.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gamorim\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

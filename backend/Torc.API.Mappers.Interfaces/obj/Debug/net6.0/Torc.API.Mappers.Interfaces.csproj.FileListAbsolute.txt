@@ -1,0 +1,17 @@
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Mappers.Interfaces.deps.json
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Mappers.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Mappers.Interfaces.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Domain.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Models.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Domain.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Models.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.csproj.AssemblyReference.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.AssemblyInfoInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.AssemblyInfo.cs
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.csproj.CoreCompileInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.csproj.CopyComplete
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\refint\Torc.API.Mappers.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\Torc.API.Mappers.Interfaces.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Mappers.Interfaces\obj\Debug\net6.0\ref\Torc.API.Mappers.Interfaces.dll

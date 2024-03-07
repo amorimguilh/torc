@@ -1,0 +1,17 @@
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Interfaces.deps.json
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Interfaces.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Domain.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Models.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Domain.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\bin\Debug\net6.0\Torc.API.Repositories.Models.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.csproj.AssemblyReference.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.AssemblyInfoInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.AssemblyInfo.cs
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.csproj.CoreCompileInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.csproj.CopyComplete
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\refint\Torc.API.Repositories.Interfaces.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\Torc.API.Repositories.Interfaces.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Interfaces\obj\Debug\net6.0\ref\Torc.API.Repositories.Interfaces.dll

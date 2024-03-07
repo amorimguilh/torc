@@ -1,0 +1,12 @@
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\bin\Debug\net6.0\Torc.API.Repositories.Domain.deps.json
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\bin\Debug\net6.0\Torc.API.Repositories.Domain.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\bin\Debug\net6.0\Torc.API.Repositories.Domain.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.csproj.AssemblyReference.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.AssemblyInfoInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.AssemblyInfo.cs
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.csproj.CoreCompileInputs.cache
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\refint\Torc.API.Repositories.Domain.dll
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\Torc.API.Repositories.Domain.pdb
+C:\Pessoal\Study\torc\backend\Torc.API.Repositories.Domain\obj\Debug\net6.0\ref\Torc.API.Repositories.Domain.dll

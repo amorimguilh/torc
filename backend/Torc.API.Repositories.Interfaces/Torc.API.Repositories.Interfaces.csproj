@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Torc.API.Repositories.Domain\Torc.API.Repositories.Domain.csproj" />
+    <ProjectReference Include="..\Torc.API.Repositories.Models\Torc.API.Repositories.Models.csproj" />
+  </ItemGroup>
+
+</Project>
